@@ -1,15 +1,68 @@
-@media screen and (max-width: 995px) {
-    /* .first{
-        margin-left: 10px;
+@media screen and (max-width: 1199px){
+    .top-blog img {
+        width: 200px;
+      }
+      .course-box{
+        margin-top: 50px;
+      }
+}
+@media screen and (max-width: 991px){
+    .one-player h4{
+        width: 145px;
     }
-    .scnd{
-        margin-right: 10px;
-    } */
-    /* .navs{
-        display: none;
-    } */
-    /* .tog-bar{
-        display: block;
+    .two-blog{
+        margin-left: 100px;
+        width: 73%
     }
-     */
+    .blog-det{
+        margin-left: 45px;
+    }
+    .top-blog h3{
+        text-align: center;
+    }
+    .blog-item{
+        width: 40%;
+    }
+    .course h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar a{
+        margin-right: 15px;
+    }
+    .player-blog h3{
+        text-align: center;
+    }
+    .one-player{
+        margin-left: 2%;
+    }
+    .two-player{
+        display:flex;
+    }
+    .six-player{
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 693px){
+    .one-blog h5{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .blog-item{
+        margin-left: 65px;
+    }
+    .blog-det{
+        margin-left: 101px;
+        text-align: center;
+      }
+}
+@media screen and (max-width: 576px){
+    .two-blog{
+        margin-left: 80px;
+    }
 }
